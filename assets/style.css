@@ -1,12 +1,15 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 /*wildcard selector*/
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 /*General Styles*/
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,17 +18,17 @@ body{
 }
 
 /*header*/
-header{
+header {
     background-color: lightcoral;
 }
 
 /*Main*/
-main{
+main {
     background-color: lightblue;
     flex: 1 0 auto;
 }
 
 /*Footer*/
-footer{
+footer {
     background-color: lightgreen;
 }
