@@ -43,12 +43,12 @@ h1{
     list-style-type: none;
 }
 
-#menu > li{
+#menu li{
     margin-bottom: 1em;
 }
 
 .active{
-    border-bottom: solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /*Main*/
