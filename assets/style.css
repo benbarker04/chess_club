@@ -88,8 +88,17 @@ main {
 }
 
 /*Footer*/
-footer {
-    background-color: lightgreen;
+#social-media{
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i{
+    font-size: 160%;
+    padding: 5%;
 }
 
 /* Media query: tablets and larger (768px and up) */
