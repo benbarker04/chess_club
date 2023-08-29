@@ -28,6 +28,7 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
 header a{
@@ -82,9 +83,15 @@ nav{
 
 /*Main*/
 main {
-  margin-top: 79px;
-  background-color: lightblue;
+  margin-top: 55px;
     flex: 1 0 auto;
+}
+
+/*Hero*/
+#hero{
+    height: 600px;
+    width: 100%;
+    background: url("../assets/images/pexels-anastasia-shuraeva-8466017\ \(1\).jpg") no-repeat center center/cover;
 }
 
 /*Footer*/
@@ -132,7 +139,7 @@ main {
 
     /*Main*/
     main{
-        margin-top: 79px;
+        margin-top: 75px;
     }
 }
 
