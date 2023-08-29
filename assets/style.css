@@ -31,24 +31,24 @@ h1 {
     background-color: #252525;
 }
 
-.white-text{
+.white-text {
     color: #ffffff;
 }
 
-.black-text{
+.black-text {
     color: #252525;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
 /*header*/
 header {
-    background-color:#ffffff;
-    padding:0 1rem;
+    background-color: #ffffff;
+    padding: 0 1rem;
     position: fixed;
-    z-index:10;
+    z-index: 10;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
@@ -56,31 +56,31 @@ header {
     white-space: nowrap;
 }
 
-header a{
+header a {
     text-decoration: none;
     color: inherit;
 }
 
-h1{
+h1 {
     font-family: "pacifico", sans-serif;
     color: #252525;
 }
 
-#menu{
+#menu {
     font-size: 110%;
     list-style-type: none;
 }
 
-#menu li{
+#menu li {
     margin-bottom: 1em;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
 /*Navbar styles with dropdown toggle*/
-nav{
+nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
@@ -98,37 +98,38 @@ nav{
     display: block;
 }
 
-#nav-toggle{
+#nav-toggle {
     display: none;
 }
 
-#nav-toggle-label{
+#nav-toggle-label {
     font-size: 2rem;
 }
 
 /*Main*/
 main {
-  margin-top: 55px;
+    margin-top: 55px;
     flex: 1 0 auto;
 }
 
 /*Hero*/
-#hero{
+#hero {
     height: 600px;
     width: 100%;
     background: url("../assets/images/pexels-anastasia-shuraeva-8466017\ \(1\).jpg") no-repeat center center/cover;
     position: relative;
 }
 
-#hero h2{
+#hero h2 {
     font-family: "pacifico", sans-serif;
 }
 
-#hero   h2, #hero h3{
+#hero h2,
+#hero h3 {
     color: #ffffff;
 }
 
-#cover-text{
+#cover-text {
     background-color: rgba(0, 0, 0, .7);
     font-size: 130%;
     position: absolute;
@@ -140,38 +141,38 @@ main {
 }
 
 /*About us*/
-#about{
-        height: 600px;
-            width: 100%;
+#about {
+    height: 600px;
+    width: 100%;
     color: #ffffff;
     padding-top: 2rem;
 }
 
-#about-us{
+#about-us {
     text-align: center;
 }
 
-#about-us h1{
+#about-us h1 {
     font-size: 170%;
     font-family: inherit;
 }
 
-#about-us{
+#about-us {
     font-size: 130%;
 }
 
-#what-we-offer{
- padding-top: 2rem;
-text-align: center;
+#what-we-offer {
+    padding-top: 2rem;
+    text-align: center;
 }
 
-#offer-list li{
+#offer-list li {
     padding: 20px;
     text-align: center;
 }
 
 /*Club times*/
-#club-times h1{
+#club-times h1 {
     color: #ffffff;
     padding-top: 1rem;
     text-align: center;
@@ -193,25 +194,25 @@ text-align: center;
     color: #ffffff;
 }
 
-#club-times div{
-padding:1rem;
+#club-times div {
+    padding: 1rem;
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
 }
 
 /*Gallery*/
-#photos img{
+#photos img {
     width: 100%;
     line-height: 1em;
 }
 
-#photos{
+#photos {
     line-height: 0;
 }
 
 /*Footer*/
-#social-media{
+#social-media {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -219,13 +220,22 @@ padding:1rem;
     list-style-type: none;
 }
 
-#social-media i{
+#social-media i {
     font-size: 160%;
     padding: 5%;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -239,7 +249,7 @@ padding:1rem;
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -254,27 +264,31 @@ padding:1rem;
     }
 
     /*Main*/
-    main{
+    main {
         margin-top: 75px;
     }
 
     /*Hero*/
 
-    #cover-text{
+    #cover-text {
         width: 400px;
         right: 0;
     }
 
     /*About us*/
-    #about{
+    #about {
         height: 400px;
     }
 
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /*Media query: laptops and larger (992px and up)*/
-@media screen and (min-width: 992px){
-    #menu a:hover{
+@media screen and (min-width: 992px) {
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }
