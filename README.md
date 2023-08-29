@@ -22,4 +22,9 @@ Users of the website can find all the information they need about Ben's Chess Cl
  ![header](https://github.com/benbarker04/chess_club/assets/131170958/d2d8beea-f4b0-46ad-81f3-b98cd46a9b2b)
 
 * The About Us Section
-  - The About Us section gives us details on what the club offers their members.
+  - The About Us section gives the user details on what the club offers their members.
+
+![aboutus](https://github.com/benbarker04/chess_club/assets/131170958/792bb782-12a3-4ac6-9890-a38aff07e01b)
+
+* The Club Times Section
+  - The club times section gives the user the important information they need to know about the club: times, age groups and the entry price.
