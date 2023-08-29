@@ -1,4 +1,5 @@
 #Ben's Chess Club
+
 Ben's Chess Club website is a landing page for parents and kids looking for a chess club for kids ages 8-18. Ben's Chess Club offers a fun and friendly environment for people to play or learn to play chess.
 
 Users of the website can find all the information they need about Ben's Chess Club: meeting times, pricing and a sign-up form. This site targets parents of children who want to play or learn to play chess.
