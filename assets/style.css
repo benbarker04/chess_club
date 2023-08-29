@@ -23,6 +23,22 @@ h1 {
     color: #252525;
 }
 
+.white-background {
+    background-color: #ffffff;
+}
+
+.black-background {
+    background-color: #252525;
+}
+
+.white-text{
+    color: #ffffff;
+}
+
+.black-text{
+    color: #252525;
+}
+
 /*header*/
 header {
     background-color:#ffffff;
@@ -123,17 +139,12 @@ main {
 #about{
         height: 600px;
             width: 100%;
-    background-color: #252525;
     color: #ffffff;
     padding-top: 2rem;
 }
 
 #about-us{
     text-align: center;
-}
-
-#about-us h1, #about-us p{
-    color: #ffffff;
 }
 
 #about-us h1{
@@ -153,6 +164,20 @@ text-align: center;
 #offer-list li{
     padding: 20px;
     text-align: center;
+}
+
+/*Club times*/
+#club-times h1{
+    color: #ffffff;
+    text-align: center;
+    font-family: inherit;
+}
+
+#club-times div{
+padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
 }
 
 /*Footer*/
