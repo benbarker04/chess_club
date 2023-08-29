@@ -213,7 +213,7 @@ main {
 
 /*Sign up*/
  #signup{
-    background: url("../assets/images/pexels-sk-814133.jpg");
+    background: url("../assets/images/pexels-rūdolfs-klintsons-7120352.jpg");
     width: 100%;
     height: 100vh;
     background-position: 75%;
@@ -221,8 +221,9 @@ main {
 
 #signup-form {
     color: #252525;
-    background-color: rgba(225, 225, 225, 0.6);
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 30px;
+    
 }
 
 #signup-form>h2 {
