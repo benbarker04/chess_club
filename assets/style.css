@@ -39,6 +39,10 @@ h1 {
     color: #252525;
 }
 
+.hidden{
+    display: none;
+}
+
 /*header*/
 header {
     background-color:#ffffff;
@@ -169,12 +173,28 @@ text-align: center;
 /*Club times*/
 #club-times h1{
     color: #ffffff;
+    padding-top: 1rem;
     text-align: center;
     font-family: inherit;
+    text-align: center;
+}
+
+#club-times {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow wrapping to multiple rows */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: stretch;
+    /* Stretch items to fill the container vertically */
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #252525;
+    color: #ffffff;
 }
 
 #club-times div{
-padding: 15px;
+padding:1rem;
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
@@ -234,6 +254,12 @@ padding: 15px;
         width: 400px;
         right: 0;
     }
+
+    /*About us*/
+    #about{
+        height: 400px;
+    }
+
 }
 
 /*Media query: laptops and larger (992px and up)*/
