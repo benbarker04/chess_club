@@ -68,15 +68,23 @@ Users of the website can find all the information they need about Ben's Chess Cl
 *CSS
   - No errors were found when passing through the official (Jigsaw) validator
 *Accessibility
-  - I have confirmed that the fonts and colours chosen are easy to ready and accessible by running it through lighthouse in dev tools.
+  - I have confirmed that the fonts and colours chosen are easy to read and accessible by running it through the lighthouse in dev tools.
 
 ![lighthouse](https://github.com/benbarker04/chess_club/assets/131170958/53a78ef7-6af5-4193-9817-50c63b849a00)
 
 ## Deployment
 
-* This site was deployed to GitHub pages. The steps to deploy are as followed:
+* This site was deployed to GitHub pages. The steps to deploy are as follows:
     - In the GitHub repository, navigate to the settings tab
     - From the source drop-down menu, select the master branch
-    - Once the master branch has been selected, the page provided the live link to the completed website.
-  The live link can be found here-[Ben's Chess Club](https://benbarker04.github.io/chess_club/)
+    - Once the master branch has been selected, the page provides the live link to the completed website.
 
+   The live link can be found here-[Ben's Chess Club](https://benbarker04.github.io/chess_club/)
+
+## Credits
+
+### Content
+* The code to make the Header, navbar, footer, social media links, gallery and signup page was taken from the CI [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/)  Project
+
+### Media
+* All images were taken from [Pexels](https://www.pexels.com/)
