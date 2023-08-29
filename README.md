@@ -8,7 +8,7 @@ Users of the website can find all the information they need about Ben's Chess Cl
 
 ## Features
 * Navigation
-  - Featured at the top of the page, is the club name in the left corner: Ben's Chess Club which links to the top of the home page from whatever page you are on.
+  -  Featured at the top of the page, is the club name in the left corner: Ben's Chess Club which links to the top of the home page from whatever page you are on.
   - To the right is the navigation bar for Home, Gallery and Sign up which links to the other pages of the website.
   - The navigation tells the user the name of the club and website and makes the different sections of information easy to find.
  
