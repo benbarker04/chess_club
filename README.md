@@ -85,7 +85,7 @@ Users of the website can find all the information they need about Ben's Chess Cl
 
 ### Content
 * The code to make the Header, navbar, footer, social media links, gallery and signup page was taken from the CI [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/)  Project
-* The code to make my divs on the club times section was given by [Alain Paulin Niyonkuru on StackOverflow](https://stackoverflow.com/questions/77002365/how-do-i-make-my-divs-appear-in-a-row-with-wider-screens?noredirect=1#comment135747740_77002365)
+* The code to make my divs on the club times section are responsive for each screen size was given by [Alain Paulin Niyonkuru on StackOverflow](https://stackoverflow.com/questions/77002365/how-do-i-make-my-divs-appear-in-a-row-with-wider-screens?noredirect=1#comment135747740_77002365)
 
 ### Media
 * All images were taken from [Pexels](https://www.pexels.com/)
